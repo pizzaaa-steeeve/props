@@ -8,13 +8,15 @@ function App() {
   };
 
   return (
-    <Profile
+    <div className="main>
+        <Profile
       fullName="Pizzaaa Steeeve"
       bio="MERN Stack Developer"
       profession="web developper"
       image="./src/Profile/steve.png"
       handleName={handleName}
     />
+    </div>
   );
 }
 
